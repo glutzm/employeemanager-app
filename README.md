@@ -16,7 +16,7 @@ do canal [Amigoscode](https://www.youtube.com/@amigoscode).
 ## Instruções
 1. Suba a aplicação de Banco de Dados com:
     ```bash
-    docker-compose up -d
+    docker-compose -f ./backend/docker-compose.yml up -d
     ```
 
 2. Inicie a aplicação em Spring Boot com:
