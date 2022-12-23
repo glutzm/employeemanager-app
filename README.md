@@ -19,12 +19,12 @@ do canal [Amigoscode](https://www.youtube.com/@amigoscode).
     docker-compose -f ./backend/docker-compose.yml up -d
     ```
 
-2. Inicie a aplicação em Spring Boot com:
+2. Acesse o diretório *backend* e inicie a aplicação em Spring Boot com:
     ```bash
     mvn spring-boot:run
     ```
 
-3. Inicie a aplicação em Angular com:
+3. Acesse o diretório *frontend* e inicie a aplicação em Angular com:
     ```bash
    ng serve
     ```
